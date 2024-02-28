@@ -1,0 +1,83 @@
+:root{
+    --bg: #1e1e1e;
+    --bgsoft:#2e2e2e;
+    --text: rgb(0, 0, 0);
+    --textsoft: #d3d3d3;
+    --btn: #4e4e4e;
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+body{
+    background-color: var(--bg);
+    color:var(--text);
+}
+
+a{
+    text-decoration: none;
+    color:inherit;
+}
+
+.Container{
+    background: #4e4e4e;
+    width: 90%;
+    margin: auto;
+    width: 80%;
+    padding-left: 50px;
+    padding-right: 50px;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+@media (max-width: 1536px){
+    .Container{
+        width: 1366px;
+    }
+}
+
+@media (max-width: 1536px){
+    .Container{
+        width: 1366px;
+    }
+}
+
+@media (max-width: 1366px){
+    .Container{
+        width: 1280px;
+    }
+}
+
+@media (max-width: 1280px){
+    .Container{
+        width: 1024px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+
+@media (max-width: 1024px){
+    .Container{
+        width: 768px;
+    }
+}
+
+@media (max-width: 768px){
+    .Container{
+        width: 640px;
+    }
+}
+
+@media (max-width: 640px){
+    .Container{
+        width: 475px;
+    }
+}

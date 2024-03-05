@@ -1,6 +1,9 @@
 const About = () => {
   return (
-  <div>about</div>
+  <div>
+    <img src=" /EDUCYDLEPNG.png"></img>
+  </div>
+  
   );
 };
   

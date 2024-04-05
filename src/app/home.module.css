@@ -1,0 +1,48 @@
+.mainpage{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: left;
+    height: 90vh;
+}
+
+.hero{
+    display: flex;
+    flex-direction: column;
+    justify-content: top;
+    align-items: left;
+    height: 90vh;
+}
+
+.heading{
+    font-size: 5rem;
+    font-weight: 700;
+    color: #333;
+    margin-bottom: 1rem;
+}
+
+.subheading{
+    font-size: 3rem;
+    font-weight: 400;
+    color: #333;
+    margin-bottom: 1rem;
+}
+
+.buttongrid{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: left;
+    gap: 20px;
+}
+
+.button{
+    min-width: 130px;
+    padding: 30px;
+    margin: 20px;
+    font-size: 0 .5rem;
+    border: #333;
+    border-radius: 10px;
+    cursor: wait;
+}
+

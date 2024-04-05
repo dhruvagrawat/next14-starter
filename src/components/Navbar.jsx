@@ -5,6 +5,7 @@ const Navbar = () => {
     return (
 
     <div className={styles.container}>
+        <div src="/favicon.ico">hello</div>
         <div className= {styles.logo}>Logo</div>
         <div>
             <Links/>

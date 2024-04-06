@@ -5,6 +5,10 @@ const nextConfig = {
             {
                 protocol: 'https',
                 hostname: "tosk.com",
+            },
+            {
+                protocol: 'https',
+                hostname: "cdn.osxdaily.com",
             }
         ]
     }

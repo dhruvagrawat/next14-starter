@@ -1,8 +1,19 @@
+.mainmain{
+    margin-top: 15px;
+}
+
 .container{
     height: auto;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.435), rgba(255, 255, 255, 0.397));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 20px;
+    border:1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+    padding: 20px;
 }
 
 .logo{

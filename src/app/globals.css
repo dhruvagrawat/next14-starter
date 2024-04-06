@@ -1,5 +1,5 @@
 :root{
-    --bg: #1e1e1e;
+   
     --bgsoft:#2e2e2e;
     --text: rgb(0, 0, 0);
     --textsoft: #d3d3d3;
@@ -16,8 +16,9 @@
 }
 
 body{
-    background-color: var(--bg);
-    color:var(--text);
+    background-image: url("https://cdn.osxdaily.com/wp-content/uploads/2023/11/M3-iMac-MacBook-Pro-wallpaper-8.jpeg");
+    background-repeat: none;
+    background-size: cover;
 }
 
 a{
@@ -26,10 +27,9 @@ a{
 }
 
 .Container{
-    background: #4e4e4e;
+    background: #4e4e4e00;
     width: 90%;
     margin: auto;
-    width: 80%;
     padding-left: 50px;
     padding-right: 50px;
     min-height: 100vh;
